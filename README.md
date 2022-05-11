@@ -4,7 +4,7 @@ A flutter app that hepls us in daily home exercise to stay fit.It also hepls us 
 
 ## App Logo
 
-<img src="https://png2.cleanpng.com/sh/d7ab0f1b2f9ba953dd3c9699bb25b7a3/L0KzQYm3U8E6N6NAj5H0aYP2gLBuTfZqfJ9qiAU2Y3XxhMPsTgBpgaRue9N1LXbshLBskCMueJlAi9tsYXywdcnskvNqe5Yyftt9bnX2g37tigRvbaR4ReR4b32wd8r0Tfd6dZ9miAZyYz3rdbLzlPgucJZmRadqYkC1dYq4VMhmQZY1RqgCNUe6RYm6UcUzOWUATagEN0K8SIi1kP5o/kisspng-fitness-centre-physical-fitness-physical-exercise-fitness-fitness-room-gym-gymnastic-health-hea-5ab02e9148e9e0.6757758315214956972987.png" alt="alt text" title="image Title"  height="450" />
+<img align="center" src="https://png2.cleanpng.com/sh/d7ab0f1b2f9ba953dd3c9699bb25b7a3/L0KzQYm3U8E6N6NAj5H0aYP2gLBuTfZqfJ9qiAU2Y3XxhMPsTgBpgaRue9N1LXbshLBskCMueJlAi9tsYXywdcnskvNqe5Yyftt9bnX2g37tigRvbaR4ReR4b32wd8r0Tfd6dZ9miAZyYz3rdbLzlPgucJZmRadqYkC1dYq4VMhmQZY1RqgCNUe6RYm6UcUzOWUATagEN0K8SIi1kP5o/kisspng-fitness-centre-physical-fitness-physical-exercise-fitness-fitness-room-gym-gymnastic-health-hea-5ab02e9148e9e0.6757758315214956972987.png" alt="alt text" title="image Title"  height="450" />
 
 
 ## Authors
@@ -38,3 +38,27 @@ A flutter app that hepls us in daily home exercise to stay fit.It also hepls us 
 <img src='https://user-images.githubusercontent.com/93006120/167898452-d1f11c2b-21c0-4d46-85a9-31013a4144cd.jpg' width='250' height='510'/> <><img src='https://user-images.githubusercontent.com/93006120/167898469-b4904564-ddb9-4dd2-bd95-34d2d533d202.jpg' width='250' height='510'/> 
 
 <img src='https://user-images.githubusercontent.com/93006120/167898478-c81bac9e-4522-4f62-9ec3-6e1a89b19353.jpg' width='250' height='510'/> 
+
+## To instal this app
+
+### Prerequisites
+
+You need to have **Flutter SDK** installed , if not install it from [here](https://flutter.dev/docs/get-started/install)
+
+### Installing
+
+Clone this repository, open it in an IDE and in the root directory run :
+
+`flutter pub get`
+
+then connect your emulator/simulator/physical device and run :
+
+`flutter run`
+
+<br>
+
+## Documentation
+
+For help getting started with Flutter, view online [documentation](https://flutter.dev/docs)
+
+<br>
