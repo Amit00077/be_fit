@@ -28,26 +28,17 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: exercisecolor),
+                      color: buttoncolor),
                   child: Column(
                     children: [
-                      Neumorphic(
-                        style: NeumorphicStyle(
-                            shape: NeumorphicShape.concave,
-                            boxShape: NeumorphicBoxShape.roundRect(
-                                BorderRadius.circular(12)),
-                            depth: 8,
-                            lightSource: LightSource.topLeft,
-                            color: exercisecolor),
-                        child: InkWell(
-                          child: Image.asset('assets/images/running.jpg'),
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const Running()));
-                          },
-                        ),
+                      InkWell(
+                        child: Image.asset('assets/images/running.jpg'),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const Running()));
+                        },
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -68,26 +59,17 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: exercisecolor),
+                      color: buttoncolor),
                   child: Column(
                     children: [
-                      Neumorphic(
-                        style: NeumorphicStyle(
-                            shape: NeumorphicShape.concave,
-                            boxShape: NeumorphicBoxShape.roundRect(
-                                BorderRadius.circular(12)),
-                            depth: 8,
-                            lightSource: LightSource.topLeft,
-                            color: exercisecolor),
-                        child: InkWell(
-                          child: Image.asset('assets/images/pullup.jpg'),
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const PullUP()));
-                          },
-                        ),
+                      InkWell(
+                        child: Image.asset('assets/images/pullup.jpg'),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const PullUP()));
+                        },
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -106,26 +88,17 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: exercisecolor),
+                      color: buttoncolor),
                   child: Column(
                     children: [
-                      Neumorphic(
-                        style: NeumorphicStyle(
-                            shape: NeumorphicShape.concave,
-                            boxShape: NeumorphicBoxShape.roundRect(
-                                BorderRadius.circular(12)),
-                            depth: 8,
-                            lightSource: LightSource.topLeft,
-                            color: exercisecolor),
-                        child: InkWell(
-                          child: Image.asset('assets/images/pushup.jpg'),
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const PushUp()));
-                          },
-                        ),
+                      InkWell(
+                        child: Image.asset('assets/images/pushup.jpg'),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const PushUp()));
+                        },
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
@@ -144,32 +117,26 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: exercisecolor),
+                      color: buttoncolor),
                   child: Column(
                     children: [
-                      Neumorphic(
-                        style: NeumorphicStyle(
-                            shape: NeumorphicShape.concave,
-                            boxShape: NeumorphicBoxShape.roundRect(
-                                BorderRadius.circular(12)),
-                            depth: 8,
-                            lightSource: LightSource.topLeft,
-                            color: exercisecolor),
-                        child: InkWell(
-                          child: Image.asset('assets/images/abs.jpg'),
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                    builder: (context) => const Abs()));
-                          },
-                        ),
+                      InkWell(
+                        child: Image.asset('assets/images/abs.jpg'),
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => const Abs()));
+                        },
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Text(
                           "Abs",
-                          style: TextStyle(color: textcolor, fontSize: 20),
+                          style: TextStyle(
+                              color: textcolor,
+                              // fontWeight: FontWeight.bold,
+                              fontSize: 20),
                         ),
                       )
                     ],

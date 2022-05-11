@@ -246,14 +246,14 @@ class _FoodSearchState extends State<FoodSearch> {
                         ),
                         Text(
                           "Protein = $pro gram",
-                          style: TextStyle(fontSize: 30, color: textcolor),
+                          style: TextStyle(fontSize: 25, color: textcolor),
                         ),
                         Text("Carbohydrate = $carb gram",
-                            style: TextStyle(fontSize: 30, color: textcolor)),
+                            style: TextStyle(fontSize: 25, color: textcolor)),
                         Text("Energy = $energy Kcal",
-                            style: TextStyle(fontSize: 30, color: textcolor)),
+                            style: TextStyle(fontSize: 25, color: textcolor)),
                         Text("Fat = $fat gram",
-                            style: TextStyle(fontSize: 30, color: textcolor)),
+                            style: TextStyle(fontSize: 25, color: textcolor)),
                         SizedBox(
                           height: 40,
                         ),

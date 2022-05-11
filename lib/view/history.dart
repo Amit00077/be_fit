@@ -1,6 +1,7 @@
 // ignore_for_file: non_constant_identifier_names, avoid_unnecessary_containers, prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:flutter_neumorphic/flutter_neumorphic.dart';
 import 'package:workout_timer_app/constants/color.dart';
 import 'package:workout_timer_app/services/shared_pref.dart';
 
@@ -43,19 +44,33 @@ class _HistoryState extends State<History> {
           future: getlist(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.done) {
-              return ListView.builder(
-                  itemCount: Length,
-                  itemBuilder: ((context, index) {
-                    return Container(
-                      child: Text(
-                        foods[index],
-                        style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold),
-                      ),
-                    );
-                  }));
+              return Neumorphic(
+                style: NeumorphicStyle(
+                    // shape: NeumorphicShape.concave,
+                    boxShape:
+                        NeumorphicBoxShape.roundRect(BorderRadius.circular(12)),
+                    depth: 8,
+                    lightSource: LightSource.topLeft,
+                    color: buttoncolor),
+                child: ListView.builder(
+                    itemCount: Length,
+                    itemBuilder: ((context, index) {
+                      return Container(
+                        child: Center(
+                          child: Padding(
+                            padding: const EdgeInsets.all(12.0),
+                            child: Text(
+                              foods[index],
+                              style: TextStyle(
+                                  color: Colors.black,
+                                  fontSize: 30,
+                                  fontWeight: FontWeight.bold),
+                            ),
+                          ),
+                        ),
+                      );
+                    })),
+              );
             } else {
               return Center(
                 child: CircularProgressIndicator(),
