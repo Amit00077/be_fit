@@ -28,7 +28,7 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: backgroundcolor),
+                      color: exercisecolor),
                   child: Column(
                     children: [
                       Neumorphic(
@@ -38,7 +38,7 @@ class Exercise extends StatelessWidget {
                                 BorderRadius.circular(12)),
                             depth: 8,
                             lightSource: LightSource.topLeft,
-                            color: backgroundcolor),
+                            color: exercisecolor),
                         child: InkWell(
                           child: Image.asset('assets/images/running.jpg'),
                           onTap: () {
@@ -68,7 +68,7 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: backgroundcolor),
+                      color: exercisecolor),
                   child: Column(
                     children: [
                       Neumorphic(
@@ -78,7 +78,7 @@ class Exercise extends StatelessWidget {
                                 BorderRadius.circular(12)),
                             depth: 8,
                             lightSource: LightSource.topLeft,
-                            color: backgroundcolor),
+                            color: exercisecolor),
                         child: InkWell(
                           child: Image.asset('assets/images/pullup.jpg'),
                           onTap: () {
@@ -106,7 +106,7 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: backgroundcolor),
+                      color: exercisecolor),
                   child: Column(
                     children: [
                       Neumorphic(
@@ -116,7 +116,7 @@ class Exercise extends StatelessWidget {
                                 BorderRadius.circular(12)),
                             depth: 8,
                             lightSource: LightSource.topLeft,
-                            color: backgroundcolor),
+                            color: exercisecolor),
                         child: InkWell(
                           child: Image.asset('assets/images/pushup.jpg'),
                           onTap: () {
@@ -144,7 +144,7 @@ class Exercise extends StatelessWidget {
                           BorderRadius.circular(12)),
                       depth: 8,
                       lightSource: LightSource.topLeft,
-                      color: backgroundcolor),
+                      color: exercisecolor),
                   child: Column(
                     children: [
                       Neumorphic(
@@ -154,7 +154,7 @@ class Exercise extends StatelessWidget {
                                 BorderRadius.circular(12)),
                             depth: 8,
                             lightSource: LightSource.topLeft,
-                            color: backgroundcolor),
+                            color: exercisecolor),
                         child: InkWell(
                           child: Image.asset('assets/images/abs.jpg'),
                           onTap: () {
