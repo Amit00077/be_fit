@@ -61,4 +61,8 @@ then connect your emulator/simulator/physical device and run :
 
 For help getting started with Flutter, view online [documentation](https://flutter.dev/docs)
 
+<<<<<<< HEAD
 <br>
+=======
+<br>
+>>>>>>> 93ac8939934ec84814c9fcbdece9a3e782a63b4f
