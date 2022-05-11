@@ -38,4 +38,3 @@ A flutter app that hepls us in daily home exercise to stay fit.It also hepls us 
 <img src='https://user-images.githubusercontent.com/93006120/167898452-d1f11c2b-21c0-4d46-85a9-31013a4144cd.jpg' width='250' height='510'/> <><img src='https://user-images.githubusercontent.com/93006120/167898469-b4904564-ddb9-4dd2-bd95-34d2d533d202.jpg' width='250' height='510'/> 
 
 <img src='https://user-images.githubusercontent.com/93006120/167898478-c81bac9e-4522-4f62-9ec3-6e1a89b19353.jpg' width='250' height='510'/> 
-
