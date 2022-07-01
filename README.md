@@ -4,7 +4,7 @@ A flutter app that hepls us in daily home exercise to stay fit.It also hepls us 
 
 ## App Logo
 
-<img src=" https://drive.google.com/file/d/1q8sJI5rKz_XcNepoCWvYQS3zEMXFkmzu/view?usp=sharing" alt="alt text" title="image Title"  height="450" />
+<img src=" " alt="alt text" title="image Title"  height="450" />
 
 
 ## Authors
