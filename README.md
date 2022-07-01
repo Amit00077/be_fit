@@ -4,7 +4,7 @@ A flutter app that hepls us in daily home exercise to stay fit.It also hepls us 
 
 ## App Logo
 
-<img src="https://png2.cleanpng.com/sh/d7ab0f1b2f9ba953dd3c9699bb25b7a3/L0KzQYm3U8E6N6NAj5H0aYP2gLBuTfZqfJ9qiAU2Y3XxhMPsTgBpgaRue9N1LXbshLBskCMueJlAi9tsYXywdcnskvNqe5Yyftt9bnX2g37tigRvbaR4ReR4b32wd8r0Tfd6dZ9miAZyYz3rdbLzlPgucJZmRadqYkC1dYq4VMhmQZY1RqgCNUe6RYm6UcUzOWUATagEN0K8SIi1kP5o/kisspng-fitness-centre-physical-fitness-physical-exercise-fitness-fitness-room-gym-gymnastic-health-hea-5ab02e9148e9e0.6757758315214956972987.png" alt="alt text" title="image Title"  height="450" />
+<img src=" https://drive.google.com/file/d/1q8sJI5rKz_XcNepoCWvYQS3zEMXFkmzu/view?usp=sharing" alt="alt text" title="image Title"  height="450" />
 
 
 ## Authors
