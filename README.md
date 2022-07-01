@@ -9,7 +9,7 @@ A flutter app that hepls us in daily home exercise to stay fit.It also hepls us 
 
 ## Authors
 
-- [@kritagyaShekhar](https://github.com/kritagyashekhar2001)
+- [@AmitBaliyan]( https://github.com/Amit00077)
 
 
 ## Features
